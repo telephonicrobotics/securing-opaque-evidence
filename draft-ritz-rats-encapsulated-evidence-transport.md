@@ -6,8 +6,8 @@ category: std
 docname: draft-ritz-rats-encapsulated-evidence-transport-latest
 submissiontype: IETF
 v: 3
-area: Security
-workgroup: RATS Working Group
+area: "Security"
+workgroup: "Remote ATtestation ProcedureS"
 keyword:
  - RATS
  - Remote Attestation
@@ -16,12 +16,12 @@ keyword:
  - ev_hash
  - Evidence Binding
 venue:
-  group: RATS
-  type: Working Group
-  mail: rats@ietf.org
-  arch: https://mailarchive.ietf.org/arch/browse/rats/
-  github: USER/REPO
-  latest: https://USER.github.io/draft-ritz-rats-encapsulated-evidence-transport/
+  group: "Remote ATtestation ProcedureS"
+  type: "Working Group"
+  mail: "rats@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/rats/"
+  github: "telephonicrobotics/securing-opaque-evidence"
+  latest: "https://telephonicrobotics.github.io/securing-opaque-evidence/draft-ritz-rats-encapsulated-evidence-transport.html"
 
 author:
  -
@@ -61,7 +61,7 @@ In the Background-Check Model of the Remote ATtestation procedureS (RATS) archit
 
 # Introduction {#intro}
 
-In the Background-Check Model of the Remote ATtestation procedureS (RATS) architecture ({{RFC9334}}), an Attester conveys Evidence to a Relying Party, which treats it as opaque and forwards it to a Verifier. The Verifier appraises this Evidence and returns an Attestation Result to the Relying Party, forming a distinct three-party topological triangle. 
+In the Background-Check Model of the Remote ATtestation procedureS (RATS) architecture ({{RFC9334}}), an Attester conveys Evidence to a Relying Party, which treats it as opaque and forwards it to a Verifier. The Verifier appraises this Evidence and returns an Attestation Result to the Relying Party, forming a distinct three-party topological triangle.
 
 ~~~ ascii-art
                 +---------------------------------------+
